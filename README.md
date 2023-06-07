@@ -21,15 +21,24 @@ Here's an example of a TypeID of type `user`:
 ```
 
 ## Benefits
-+ Type-safe: you can't accidentally use a `user` ID where a `post` ID is expected. When debugging, you can
++ **Type-safe:** you can't accidentally use a `user` ID where a `post` ID is expected. When debugging, you can
   immediately understand what type of entity a TypeID refers to thanks to the type prefix.
-+ Standards-based: they are based on the upcoming [UUIDv7 standard](https://www.ietf.org/archive/id/draft-peabody-dispatch-new-uuid-format-04.html#name-uuid-version-7). If you remove the type information, you get a valid UUIDv7.
++ **Compatible with UUIDs:** TypeIDs are a superset of UUIDs. They are based on the upcoming [UUIDv7 standard](https://www.ietf.org/archive/id/draft-peabody-dispatch-new-uuid-format-04.html#name-uuid-version-7). If you decode the TypeID and remove the type information, you get a valid UUIDv7.
 + They are K-sortable and can be used as the primary key in a database. Entirely random global ids generally
   suffer from poor database locality.
 + Thoughtful encoding: the base32 encoding is URL safe, case-insensitive, avoids ambiguous characters, can be
   selected for copy-pasting by double-clicking, and is a more compact encoding than the traditional hex encoding used by UUIDs (26 characters vs 36 characters).
 
+## Implementations
+| Language | Status |
+| -------- | ------ |
+| [Go](https://github.com/jetpack-io/typeid-go) | ✓ Implemented |
+| Python | ... Coming Soon |
+| Rust | ... Coming Soon |
+| [SQL](https://github.com/jetpack-io/typeid-sql) | ✓ Implemented |
+| TypeScript | ... Coming Soon |
 
+We are looking for community contributions to implement TypeIDs in other languages.
 ## Related Work
 + [UUIDv7](https://www.ietf.org/archive/id/draft-peabody-dispatch-new-uuid-format-04.html#name-uuid-version-7) - The upcoming UUID standard that TypeIDs are based on.
 
