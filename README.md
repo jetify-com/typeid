@@ -10,23 +10,23 @@ TypeIDs are a modern, type-safe extension of UUIDv7.
 TypeIDs are canonically encoded as lowercase strings consisting of three parts:
 1. A type prefix
 2. An underscore '_' separator
-3. A 128-bit UUIDv7 encoded as a 26-character string in base32.
+3. A 128-bit UUIDv7 encoded as a 26-character string in base32 (using [Crockford's alphabet](https://www.crockford.com/base32.html) in lowercase).
 
 Here's an example of a TypeID of type `user`:
 
 ```
   user_2x4y6z8a0b1c2d3e4f5g6h7j8k
   └──┘ └────────────────────────┘
-  type       uuid (base32)
+  type    uuid suffix (base32)
 ```
 
 ## Benefits
 + **Type-safe:** you can't accidentally use a `user` ID where a `post` ID is expected. When debugging, you can
   immediately understand what type of entity a TypeID refers to thanks to the type prefix.
 + **Compatible with UUIDs:** TypeIDs are a superset of UUIDs. They are based on the upcoming [UUIDv7 standard](https://www.ietf.org/archive/id/draft-peabody-dispatch-new-uuid-format-04.html#name-uuid-version-7). If you decode the TypeID and remove the type information, you get a valid UUIDv7.
-+ They are K-sortable and can be used as the primary key in a database. Entirely random global ids generally
-  suffer from poor database locality.
-+ Thoughtful encoding: the base32 encoding is URL safe, case-insensitive, avoids ambiguous characters, can be
++ **K-Sortable**: TypeIDs are K-sortable and can be used as the primary key in a database while ensuring good
+  locality. Compare to entirely random global ids, like UUIDv4, that generally suffer from poor database locality.
++ **Thoughtful encoding**: the base32 encoding is URL safe, case-insensitive, avoids ambiguous characters, can be
   selected for copy-pasting by double-clicking, and is a more compact encoding than the traditional hex encoding used by UUIDs (26 characters vs 36 characters).
 
 ## Implementations
@@ -39,6 +39,36 @@ Here's an example of a TypeID of type `user`:
 | TypeScript | ... Coming Soon |
 
 We are looking for community contributions to implement TypeIDs in other languages.
+
+## Command-line Tool
+This repo includes a command-line tool for generating TypeIDs. To install it, run:
+
+```
+go install github.com/jetpack-io/typeid
+```
+
+To generate a new TypeID, run:
+
+```
+$ typeid prefix
+prefix_01h2xcejqtf2nbrexx3vqjhp41
+```
+
+To decode an existing TypeID into a UUID run:
+  
+```
+$ typeid decode prefix_01h2xcejqtf2nbrexx3vqjhp41
+type: prefix
+uuid: 0188bac7-4afa-78aa-bc3b-bd1eef28d881
+```
+
+And to encode an existing UUID into a TypeID run:
+
+```
+$ typeid encode prefix 0188bac7-4afa-78aa-bc3b-bd1eef28d881
+prefix_01h2xcejqtf2nbrexx3vqjhp41
+```
+
 ## Related Work
 + [UUIDv7](https://www.ietf.org/archive/id/draft-peabody-dispatch-new-uuid-format-04.html#name-uuid-version-7) - The upcoming UUID standard that TypeIDs are based on.
 
