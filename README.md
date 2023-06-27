@@ -43,20 +43,20 @@ We are looking for community contributions to implement TypeIDs in other languag
 ## Command-line Tool
 This repo includes a command-line tool for generating TypeIDs. To install it, run:
 
-```
-go install github.com/jetpack-io/typeid
+```bash
+curl -fsSL https://get.jetpack.io/typeid | bash
 ```
 
 To generate a new TypeID, run:
 
-```
+```console
 $ typeid prefix
 prefix_01h2xcejqtf2nbrexx3vqjhp41
 ```
 
 To decode an existing TypeID into a UUID run:
   
-```
+```console
 $ typeid decode prefix_01h2xcejqtf2nbrexx3vqjhp41
 type: prefix
 uuid: 0188bac7-4afa-78aa-bc3b-bd1eef28d881
@@ -64,7 +64,7 @@ uuid: 0188bac7-4afa-78aa-bc3b-bd1eef28d881
 
 And to encode an existing UUID into a TypeID run:
 
-```
+```console
 $ typeid encode prefix 0188bac7-4afa-78aa-bc3b-bd1eef28d881
 prefix_01h2xcejqtf2nbrexx3vqjhp41
 ```
