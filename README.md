@@ -2,7 +2,7 @@
 
 ### A type-safe, K-sortable, globally unique identifier inspired by Stripe IDs
 
-![License: Apache 2.0](https://img.shields.io/github/license/jetpack-io/typeid)
+![License: Apache 2.0](https://img.shields.io/github/license/jetpack-io/typeid) [![Join Discord](https://img.shields.io/discord/903306922852245526?color=7389D8&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/agbskCJXk2) [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
 
 ## What is it?
 TypeIDs are a modern, type-safe extension of UUIDv7.
@@ -55,7 +55,7 @@ prefix_01h2xcejqtf2nbrexx3vqjhp41
 ```
 
 To decode an existing TypeID into a UUID run:
-  
+
 ```console
 $ typeid decode prefix_01h2xcejqtf2nbrexx3vqjhp41
 type: prefix
