@@ -50,7 +50,7 @@ curl -fsSL https://get.jetpack.io/typeid | bash
 To generate a new TypeID, run:
 
 ```console
-$ typeid prefix
+$ typeid new prefix
 prefix_01h2xcejqtf2nbrexx3vqjhp41
 ```
 
