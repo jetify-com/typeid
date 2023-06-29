@@ -46,7 +46,7 @@ Here's an example of a TypeID of type `user`:
 | -------- | ------ | ---------------------- |
 | [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | @TenCoKaciStromy | Not Yet |
 | [Rust](https://github.com/alisa101rs/typeid-rs) | @alisa101rs | Not Yet |
-| [Rust](https://github.com/conrad/type-safe-id) | @conrad | Not Yet |
+| [Rust](https://github.com/conrad/type-safe-id) | @conradludgate | Yes |
 | [Swift](https://github.com/Frizlab/swift-typeid) | @Frizlab | Not Yet |
 | [TypeScript](https://github.com/ongteckwu/typeid-ts) | @ongteckwu | Not Yet |
 
