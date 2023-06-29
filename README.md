@@ -32,6 +32,7 @@ Here's an example of a TypeID of type `user`:
 
 ## Implementations
 
+### Official Implementations by `jetpack.io`
 | Language | Status |
 | -------- | ------ |
 | [Go](https://github.com/jetpack-io/typeid-go) | ✓ Implemented |
@@ -39,6 +40,15 @@ Here's an example of a TypeID of type `user`:
 | Rust | ... Coming Soon |
 | [SQL](https://github.com/jetpack-io/typeid-sql) | ✓ Implemented |
 | [TypeScript](https://github.com/jetpack-io/typeid-ts) | ✓ Implemented |
+
+### Community Provided Implementations
+| Language | Author | Validted Against Spec? |
+| -------- | ------ | ---------------------- |
+| [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | @TenCoKaciStromy | Not Yet |
+| [Rust](https://github.com/alisa101rs/typeid-rs) | @alisa101rs | Not Yet |
+| [Rust](https://github.com/conrad/type-safe-id) | @conrad | Not Yet |
+| [Swift](https://github.com/Frizlab/swift-typeid) | @Frizlab | Not Yet |
+| [TypeScript](https://github.com/ongteckwu/typeid-ts) | @ongteckwu | Not Yet |
 
 We are looking for community contributions to implement TypeIDs in other languages.
 
