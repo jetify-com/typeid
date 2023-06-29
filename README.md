@@ -8,7 +8,7 @@
 TypeIDs are a modern, type-safe extension of UUIDv7.
 
 TypeIDs are canonically encoded as lowercase strings consisting of three parts:
-1. A type prefix
+1. A type prefix (in all lowercase ASCII [a-z])
 2. An underscore '_' separator
 3. A 128-bit UUIDv7 encoded as a 26-character string in base32 (using [Crockford's alphabet](https://www.crockford.com/base32.html) in lowercase).
 
