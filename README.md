@@ -2,13 +2,14 @@
 
 ### A type-safe, K-sortable, globally unique identifier inspired by Stripe IDs
 
-![License: Apache 2.0](https://img.shields.io/github/license/jetpack-io/typeid) [![Join Discord](https://img.shields.io/discord/903306922852245526?color=7389D8&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/agbskCJXk2) [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/docs/contributor-quickstart/)
+![License: Apache 2.0](https://img.shields.io/github/license/jetpack-io/typeid) [![Join Discord](https://img.shields.io/discord/903306922852245526?color=7389D8&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/agbskCJXk2) [![Built with Devbox](https://jetpack.io/img/devbox/shield_galaxy.svg)](https://jetpack.io/devbox/)
 
 ## What is it?
-TypeIDs are a modern, type-safe extension of UUIDv7.
+TypeIDs are a modern, type-safe extension of UUIDv7. Inspired by a similar use of prefixes
+in Stripe's APIs.
 
 TypeIDs are canonically encoded as lowercase strings consisting of three parts:
-1. A type prefix (in all lowercase ASCII [a-z])
+1. A type prefix (at most 63 characters in all lowercase ASCII [a-z])
 2. An underscore '_' separator
 3. A 128-bit UUIDv7 encoded as a 26-character string in base32 (using [Crockford's alphabet](https://www.crockford.com/base32.html) in lowercase).
 
@@ -30,6 +31,7 @@ Here's an example of a TypeID of type `user`:
   selected for copy-pasting by double-clicking, and is a more compact encoding than the traditional hex encoding used by UUIDs (26 characters vs 36 characters).
 
 ## Implementations
+
 | Language | Status |
 | -------- | ------ |
 | [Go](https://github.com/jetpack-io/typeid-go) | ✓ Implemented |
