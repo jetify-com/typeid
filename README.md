@@ -42,7 +42,7 @@ Here's an example of a TypeID of type `user`:
 | [TypeScript](https://github.com/jetpack-io/typeid-ts) | ✓ Implemented |
 
 ### Community Provided Implementations
-| Language | Author | Validted Against Spec? |
+| Language | Author | Validated Against Spec? |
 | -------- | ------ | ---------------------- |
 | [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | @TenCoKaciStromy | Not Yet |
 | [Rust](https://github.com/alisa101rs/typeid-rs) | @alisa101rs | Not Yet |
