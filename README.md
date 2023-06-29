@@ -49,6 +49,7 @@ Here's an example of a TypeID of type `user`:
 | [Rust](https://github.com/conrad/type-safe-id) | @conrad | Not Yet |
 | [Swift](https://github.com/Frizlab/swift-typeid) | @Frizlab | Not Yet |
 | [TypeScript](https://github.com/ongteckwu/typeid-ts) | @ongteckwu | Not Yet |
+| [Elixir](https://github.com/sloanelybutsurely/typeid-elixir) | [@sloanelybutsurely](https://github.com/sloanelybutsurely) | Not Yet |
 
 We are looking for community contributions to implement TypeIDs in other languages.
 
