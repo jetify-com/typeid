@@ -38,7 +38,7 @@ Here's an example of a TypeID of type `user`:
 | Python | ... Coming Soon |
 | Rust | ... Coming Soon |
 | [SQL](https://github.com/jetpack-io/typeid-sql) | ✓ Implemented |
-| TypeScript | ... Coming Soon |
+| [TypeScript](https://github.com/jetpack-io/typeid-ts) | ✓ Implemented |
 
 We are looking for community contributions to implement TypeIDs in other languages.
 
