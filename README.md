@@ -48,6 +48,7 @@ Implementations should adhere to the formal [specification](./spec).
 | -------- | ------ | ---------------------- |
 | [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | @TenCoKaciStromy | Not Yet |
 | [Python](https://github.com/akhundMurad/typeid-python) | @akhundMurad | Yes, 2023-06-30 |
+| [Ruby](https://github.com/broothie/typeid-ruby) | [@broothie](https://github.com/broothie) | Yes, on 2023-06-30 |
 | [Rust](https://github.com/alisa101rs/typeid-rs) | @alisa101rs | Not Yet |
 | [Rust](https://github.com/conrad/type-safe-id) | @conrad | Not Yet |
 | [Swift](https://github.com/Frizlab/swift-typeid) | @Frizlab | Yes, on 2023-06-30 |
