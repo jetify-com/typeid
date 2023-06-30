@@ -91,7 +91,7 @@ The PATCH version is up to the discretion of the library author.
 To assist library authors in validating their implementations, we provide:
 + A reference implementation in [Go](https://github.com/jetpack-io/typeid-go)
   with extensive testing.
-+ A [valid.toml](valid.toml) file containing a list of valid typeids along 
++ A [valid.yml](valid.yml) file containing a list of valid typeids along 
   with their corresponding decoded UUIDs.
-+ An [invalid.toml](invalid.toml) file containing a list of strings that are
++ An [invalid.yml](invalid.yml) file containing a list of strings that are
   invalid typeids and should fail to parse/decode.
