@@ -47,6 +47,7 @@ Implementations should adhere to the formal [specification](./spec.md).
 | Language | Author | Validated Against Spec? |
 | -------- | ------ | ---------------------- |
 | [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | @TenCoKaciStromy | Not Yet |
+| [C# (.Net Standard 2.1)](https://github.com/cbuctok/typeId) | @cbuctok | Not Yet |
 | [Rust](https://github.com/alisa101rs/typeid-rs) | @alisa101rs | Not Yet |
 | [Rust](https://github.com/conrad/type-safe-id) | @conrad | Not Yet |
 | [Swift](https://github.com/Frizlab/swift-typeid) | @Frizlab | Not Yet |
