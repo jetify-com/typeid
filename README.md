@@ -21,7 +21,7 @@ Here's an example of a TypeID of type `user`:
   type    uuid suffix (base32)
 ```
 
-A [formal specification](./spec.md) defines the encoding in more detail.
+A [formal specification](./spec) defines the encoding in more detail.
 
 ## Benefits
 + **Type-safe:** you can't accidentally use a `user` ID where a `post` ID is expected. When debugging, you can
@@ -33,7 +33,7 @@ A [formal specification](./spec.md) defines the encoding in more detail.
   selected for copy-pasting by double-clicking, and is a more compact encoding than the traditional hex encoding used by UUIDs (26 characters vs 36 characters).
 
 ## Implementations
-Implementations should adhere to the formal [specification](./spec.md).
+Implementations should adhere to the formal [specification](./spec).
 
 ### Official Implementations by `jetpack.io`
 | Language | Status |
