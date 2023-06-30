@@ -1,0 +1,83 @@
+# This file contains test data that should be treated as *invalid* TypeIDs by
+# conforming implementations.
+#
+# Each example contains an invalid TypeID string. Implementations are expected
+# to throw an error when attempting to parse/validate these strings.
+#
+# Last updated: 2023-06-29
+
+- name: prefix-uppercase
+  typeid: "PREFIX_00000000000000000000000000"
+  description: "The prefix should be lowercase with no uppercase letters"
+
+- name: prefix-numeric
+  typeid: "12345_00000000000000000000000000"
+  description: "The prefix can't have numbers, it needs to be alphabetic"
+
+- name: prefix-period
+  typeid: "pre.fix_00000000000000000000000000"
+  description: "The prefix can't have symbols, it needs to be alphabetic"
+
+- name: prefix-underscore
+  typeid: "pre_fix_00000000000000000000000000"
+  description: "The prefix can't have symbols, it needs to be alphabetic"
+
+- name: prefix-non-ascii
+  typeid: "préfix_00000000000000000000000000"
+  description: "The prefix can only have ascii letters"
+
+- name: prefix-spaces
+  typeid: "  prefix_00000000000000000000000000"
+  description: "The prefix can't have any spaces"
+
+- name: prefix-64-chars
+  #          123456789 123456789 123456789 123456789 123456789 123456789 1234
+  typeid: "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijkl_00000000000000000000000000"
+  description: "The prefix can't be 64 characters, it needs to be 63 characters or less"
+
+- name: separator-empty-prefix
+  typeid: "_00000000000000000000000000"
+  description: "If the prefix is empty, the separator should not be there"
+
+- name: separator-empty
+  typeid: "_"
+  description: "A separator by itself should not be treated as the empty string"
+
+- name: suffix-short
+  typeid: "prefix_1234567890123456789012345"
+  description: "The suffix can't be 25 characters, it needs to be exactly 26 characters"
+
+- name: suffix-long
+  typeid: "prefix_123456789012345678901234567"
+  description: "The suffix can't be 27 characters, it needs to be exactly 26 characters"
+
+- name: suffix-spaces
+  # This example has the right length, so that the failure is caused by the space
+  # and not the suffix length
+  typeid: "prefix_1234567890123456789012345 "
+  description: "The suffix can't have any spaces"
+
+- name: suffix-uppercase
+  # This example is picked because it would be valid in lowercase
+  typeid: "prefix_0123456789ABCDEFGHJKMNPQRS"
+  description: "The suffix should be lowercase with no uppercase letters"
+
+- name: suffix-hyphens
+  # This example has the right length, so that the failure is caused by the hyphens
+  # and not the suffix length
+  typeid: "prefix_123456789-123456789-123456"
+  description: "The suffix should be lowercase with no uppercase letters"
+
+- name: suffix-wrong-alphabet
+  typeid: "prefix_ooooooiiiiiiuuuuuuulllllll"
+  description: "The suffix should only have letters from the spec's alphabet"
+
+- name: suffix-ambiguous-crockford
+  # This example would be valid if we were using the crockford disambiguation rules
+  typeid: "prefix_i23456789ol23456789oi23456"
+  description: "The suffix should not have any ambiguous characters from the crockford encoding"
+
+- name: suffix-hyphens-crockford
+  # This example would be valid if we were using the crockford hyphenation rules
+  typeid: "prefix_123456789-0123456789-0123456"
+  description: "The suffix can't ignore hyphens as in the crockford encoding"

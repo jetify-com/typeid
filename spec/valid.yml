@@ -1,0 +1,61 @@
+# This file contains test data that should parse as valid TypeIDs by conforming
+# implementations.
+#
+# Each example contains:
+# - The TypeID in its canonical string representation.
+# - The prefix
+# - The decoded UUID as a hex string
+#
+# Implementations should verify that they can encode/decode the data
+# in both directions:
+# 1. If the TypeID is decoded, it should result in the given prefix and UUID.
+# 2. If the UUID is encoded as a TypeID with the given prefix, it should
+#    result in the given TypeID.
+#
+# In addition to using these examples, it's recommended that implementations
+# generate a thousands of random ids during testing, and verify that after
+# decoding and re-encoding the id, the result is the same as the original.
+#
+# In other words, the following property should always hold:
+# random_typeid: encode(decode(random_typeid))
+#
+# Finally, while implementations should be able to decode the values below,
+# note that not all of them are UUIDv7s. When *generating* new random typeids,
+# implementations should always use UUIDv7s.
+#
+# Last updated: 2023-06-29
+
+- name: nil
+  typeid: "00000000000000000000000000"
+  prefix: ""
+  uuid: "00000000-0000-0000-0000-000000000000"
+
+- name: one
+  typeid: "00000000000000000000000001"
+  prefix: ""
+  uuid: "00000000-0000-0000-0000-000000000001"
+
+- name: ten
+  typeid: "0000000000000000000000000a"
+  prefix: ""
+  uuid: "00000000-0000-0000-0000-00000000000a"
+
+- name: sixteen
+  typeid: "0000000000000000000000000g"
+  prefix: ""
+  uuid: "00000000-0000-0000-0000-000000000010"
+
+- name: thirty-two
+  typeid: "00000000000000000000000010"
+  prefix: ""
+  uuid: "00000000-0000-0000-0000-000000000020"
+
+- name: valid-alphabet
+  typeid: "prefix_0123456789abcdefghjkmnpqrs"
+  prefix: "prefix"
+  uuid: "0110c853-1d09-52d8-d73e-1194e95b5f19"
+
+- name: valid-uuidv7
+  typeid: "prefix_01h455vb4pex5vsknk084sn02q"
+  prefix: "prefix"
+  uuid: "01890a5d-ac96-774b-bcce-b302099a8057"

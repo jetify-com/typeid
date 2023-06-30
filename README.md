@@ -11,7 +11,7 @@ in Stripe's APIs.
 TypeIDs are canonically encoded as lowercase strings consisting of three parts:
 1. A type prefix (at most 63 characters in all lowercase ASCII [a-z])
 2. An underscore '_' separator
-3. A 128-bit UUIDv7 encoded as a 26-character string in base32 (using [Crockford's alphabet](https://www.crockford.com/base32.html) in lowercase).
+3. A 128-bit UUIDv7 encoded as a 26-character string using a modified base32 encoding.
 
 Here's an example of a TypeID of type `user`:
 
@@ -20,6 +20,8 @@ Here's an example of a TypeID of type `user`:
   └──┘ └────────────────────────┘
   type    uuid suffix (base32)
 ```
+
+A [formal specification](./spec.md) defines the encoding in more detail.
 
 ## Benefits
 + **Type-safe:** you can't accidentally use a `user` ID where a `post` ID is expected. When debugging, you can
@@ -31,13 +33,13 @@ Here's an example of a TypeID of type `user`:
   selected for copy-pasting by double-clicking, and is a more compact encoding than the traditional hex encoding used by UUIDs (26 characters vs 36 characters).
 
 ## Implementations
+Implementations should adhere to the formal [specification](./spec.md).
 
 ### Official Implementations by `jetpack.io`
 | Language | Status |
 | -------- | ------ |
 | [Go](https://github.com/jetpack-io/typeid-go) | ✓ Implemented |
 | Python | ... Coming Soon |
-| Rust | ... Coming Soon |
 | [SQL](https://github.com/jetpack-io/typeid-sql) | ✓ Implemented |
 | [TypeScript](https://github.com/jetpack-io/typeid-ts) | ✓ Implemented |
 
