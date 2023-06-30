@@ -17,7 +17,7 @@
 # decoding and re-encoding the id, the result is the same as the original.
 #
 # In other words, the following property should always hold:
-# random_typeid: encode(decode(random_typeid))
+# random_typeid == encode(decode(random_typeid))
 #
 # Finally, while implementations should be able to decode the values below,
 # note that not all of them are UUIDv7s. When *generating* new random typeids,
