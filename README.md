@@ -41,7 +41,7 @@ Implementations should adhere to the formal [specification](./spec).
 | [Go](https://github.com/jetpack-io/typeid-go) | ✓ Implemented |
 | Python | ... Coming Soon |
 | [SQL](https://github.com/jetpack-io/typeid-sql) | ✓ Implemented |
-| [TypeScript](https://github.com/jetpack-io/typeid-ts) | ✓ Implemented |
+| [TypeScript](https://github.com/jetpack-io/typeid-js) | ✓ Implemented |
 
 ### Community Provided Implementations
 | Language | Author | Validated Against Spec? |
