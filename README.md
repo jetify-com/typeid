@@ -47,6 +47,7 @@ Implementations should adhere to the formal [specification](./spec).
 | Language | Author | Validated Against Spec? |
 | -------- | ------ | ---------------------- |
 | [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | @TenCoKaciStromy | Not Yet |
+| [PHP](https://github.com/BombenProdukt/typeid) | [@BombenProdukt](https://github/BombenProdukt) | Yes, on 2023-07-03 |
 | [Python](https://github.com/akhundMurad/typeid-python) | @akhundMurad | Yes, 2023-06-30 |
 | [Ruby](https://github.com/broothie/typeid-ruby) | [@broothie](https://github.com/broothie) | Yes, on 2023-06-30 |
 | [Rust](https://github.com/alisa101rs/typeid-rs) | @alisa101rs | Not Yet |
