@@ -1,7 +1,7 @@
 # TypeID Specification (Version 0.1.0)
 
 ## Overview
-TypeIDs are a type-safe extension of UUIDv7, they encode UUIDs in base32 and add a type suffix.
+TypeIDs are a type-safe extension of UUIDv7, they encode UUIDs in base32 and add a type prefix.
 
 Here's an example of a TypeID of type `user`:
 
