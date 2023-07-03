@@ -39,24 +39,23 @@ Implementations should adhere to the formal [specification](./spec).
 | Language | Status |
 | -------- | ------ |
 | [Go](https://github.com/jetpack-io/typeid-go) | ✓ Implemented |
-| Python | ... Coming Soon |
 | [SQL](https://github.com/jetpack-io/typeid-sql) | ✓ Implemented |
 | [TypeScript](https://github.com/jetpack-io/typeid-js) | ✓ Implemented |
 
 ### Community Provided Implementations
 | Language | Author | Validated Against Spec? |
 | -------- | ------ | ---------------------- |
-| [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | @TenCoKaciStromy | Not Yet |
-| [C# (.Net Standard 2.1)](https://github.com/cbuctok/typeId) | @cbuctok | Yes, on 2023-07-03 |
-| [Elixir](https://github.com/sloanelybutsurely/typeid-elixir) | [@sloanelybutsurely](https://github.com/sloanelybutsurely) | Yes, 2023-07-02 |
-| [Java](https://github.com/fxlae/typeid-java) | @fxlae | Yes, on 2023-07-02 |
-| [PHP](https://github.com/BombenProdukt/typeid) | [@BombenProdukt](https://github/BombenProdukt) | Yes, on 2023-07-03 |
-| [Python](https://github.com/akhundMurad/typeid-python) | @akhundMurad | Yes, 2023-06-30 |
+| [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | [@TenCoKaciStromy](https://github.com/TenCoKaciStromy) | Not Yet |
+| [C# (.Net Standard 2.1)](https://github.com/cbuctok/typeId) | [@cbuctok](https://github.com/cbuctok) | Yes, on 2023-07-03 |
+| [Elixir](https://github.com/sloanelybutsurely/typeid-elixir) | [@sloanelybutsurely](https://github.com/sloanelybutsurely) | Yes, on 2023-07-02 |
+| [Java](https://github.com/fxlae/typeid-java) | [@fxlae](https://github.com/fxlae) | Yes, on 2023-07-02 |
+| [PHP](https://github.com/BombenProdukt/typeid) | [@BombenProdukt](https://github.com/BombenProdukt) | Yes, on 2023-07-03 |
+| [Python](https://github.com/akhundMurad/typeid-python) | [@akhundMurad](https://github.com/akhundMurad) | Yes, on 2023-06-30 |
 | [Ruby](https://github.com/broothie/typeid-ruby) | [@broothie](https://github.com/broothie) | Yes, on 2023-06-30 |
-| [Rust](https://github.com/alisa101rs/typeid-rs) | @alisa101rs | Not Yet |
-| [Rust](https://github.com/conradludgate/type-safe-id) | @conradludgate | Yes, on 2023-07-01 |
-| [Swift](https://github.com/Frizlab/swift-typeid) | @Frizlab | Yes, on 2023-06-30 |
-| [TypeScript](https://github.com/ongteckwu/typeid-ts) | @ongteckwu | Yes, on 2023-06-30 |
+| [Rust](https://github.com/alisa101rs/typeid-rs) | [@alisa101rs](https://github.com/alisa101rs) | Not Yet |
+| [Rust](https://github.com/conradludgate/type-safe-id) | [@conradludgate](https://github.com/conradludgate) | Yes, on 2023-07-01 |
+| [Swift](https://github.com/Frizlab/swift-typeid) | [@Frizlab](https://github.com/Frizlab) | Yes, on 2023-06-30 |
+| [TypeScript](https://github.com/ongteckwu/typeid-ts) | [@ongteckwu](https://github.com/ongteckwu) | Yes, on 2023-06-30 |
 
 We are looking for community contributions to implement TypeIDs in other languages.
 
