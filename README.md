@@ -55,6 +55,7 @@ Implementations should adhere to the formal [specification](./spec).
 | [Rust](https://github.com/conradludgate/type-safe-id) | [@conradludgate](https://github.com/conradludgate) | Yes, on 2023-07-01 |
 | [Swift](https://github.com/Frizlab/swift-typeid) | [@Frizlab](https://github.com/Frizlab) | Yes, on 2023-06-30 |
 | [TypeScript](https://github.com/ongteckwu/typeid-ts) | [@ongteckwu](https://github.com/ongteckwu) | Yes, on 2023-06-30 |
+| [Zig](https://github.com/tensorush/zig-typeid) | [@tensorush](https://github.com/tensorush) | Yes, on 2023-07-05 |
 
 We are looking for community contributions to implement TypeIDs in other languages.
 
