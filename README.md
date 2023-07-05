@@ -49,6 +49,7 @@ Implementations should adhere to the formal [specification](./spec).
 | [C# (.Net Standard 2.1)](https://github.com/cbuctok/typeId) | [@cbuctok](https://github.com/cbuctok) | Yes, on 2023-07-03 |
 | [Elixir](https://github.com/sloanelybutsurely/typeid-elixir) | [@sloanelybutsurely](https://github.com/sloanelybutsurely) | Yes, on 2023-07-02 |
 | [Java](https://github.com/fxlae/typeid-java) | [@fxlae](https://github.com/fxlae) | Yes, on 2023-07-02 |
+| [Java](https://github.com/softprops/typeid-java) | [@softprops](https://github.com/softprops) | Yes, on 2023-07-04 |
 | [PHP](https://github.com/BombenProdukt/typeid) | [@BombenProdukt](https://github.com/BombenProdukt) | Yes, on 2023-07-03 |
 | [Python](https://github.com/akhundMurad/typeid-python) | [@akhundMurad](https://github.com/akhundMurad) | Yes, on 2023-06-30 |
 | [Ruby](https://github.com/broothie/typeid-ruby) | [@broothie](https://github.com/broothie) | Yes, on 2023-06-30 |
