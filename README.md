@@ -52,7 +52,6 @@ Implementations should adhere to the formal [specification](./spec).
 | [PHP](https://github.com/BombenProdukt/typeid) | [@BombenProdukt](https://github.com/BombenProdukt) | Yes, on 2023-07-03 |
 | [Python](https://github.com/akhundMurad/typeid-python) | [@akhundMurad](https://github.com/akhundMurad) | Yes, on 2023-06-30 |
 | [Ruby](https://github.com/broothie/typeid-ruby) | [@broothie](https://github.com/broothie) | Yes, on 2023-06-30 |
-| [Rust](https://github.com/alisa101rs/typeid-rs) | [@alisa101rs](https://github.com/alisa101rs) | Not Yet |
 | [Rust](https://github.com/conradludgate/type-safe-id) | [@conradludgate](https://github.com/conradludgate) | Yes, on 2023-07-01 |
 | [Swift](https://github.com/Frizlab/swift-typeid) | [@Frizlab](https://github.com/Frizlab) | Yes, on 2023-06-30 |
 | [TypeScript](https://github.com/ongteckwu/typeid-ts) | [@ongteckwu](https://github.com/ongteckwu) | Yes, on 2023-06-30 |
