@@ -4,7 +4,7 @@
 # Each example contains an invalid TypeID string. Implementations are expected
 # to throw an error when attempting to parse/validate these strings.
 #
-# Last updated: 2023-06-29
+# Last updated: 2023-07-05
 
 - name: prefix-uppercase
   typeid: "PREFIX_00000000000000000000000000"
@@ -31,7 +31,7 @@
   description: "The prefix can't have any spaces"
 
 - name: prefix-64-chars
-  #          123456789 123456789 123456789 123456789 123456789 123456789 1234
+  #        123456789 123456789 123456789 123456789 123456789 123456789 1234
   typeid: "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijkl_00000000000000000000000000"
   description: "The prefix can't be 64 characters, it needs to be 63 characters or less"
 
@@ -81,3 +81,8 @@
   # This example would be valid if we were using the crockford hyphenation rules
   typeid: "prefix_123456789-0123456789-0123456"
   description: "The suffix can't ignore hyphens as in the crockford encoding"
+
+- name: suffix-overflow
+  # This is the first suffix that overflows into 129 bits
+  typeid: "prefix_8zzzzzzzzzzzzzzzzzzzzzzzzz"
+  description: "The should encode at most 128-bits"

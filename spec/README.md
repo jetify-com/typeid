@@ -1,4 +1,4 @@
-# TypeID Specification (Version 0.1.0)
+# TypeID Specification (Version 0.2.0)
 
 ## Overview
 TypeIDs are a type-safe extension of UUIDv7, they encode UUIDs in base32 and add a type prefix.
@@ -72,6 +72,11 @@ This is the same alphabet used by [Crockford's base32 encoding](https://www.croc
 but in our case the alphabet encoding is strict: always in lowercase, no hyphens allowed,
 and we never decode multiple ambiguous characters to the same value.
 
+Technically speaking, 26 characters in base32 can encode 130 bits of data, but UUIDs
+are 128 bits. To prevent overflow errors, the maximum possible suffix for a typeid
+is `7zzzzzzzzzzzzzzzzzzzzzzzzz`. Implementations should reject any suffix greater than
+that value, by checking that the first character is a `7` or less.
+
 #### Compatibility with UUID
 When genarating a new TypeID, the generated UUID suffix MUST decode to a valid UUIDv7.
 
@@ -92,6 +97,9 @@ To assist library authors in validating their implementations, we provide:
 + A reference implementation in [Go](https://github.com/jetpack-io/typeid-go)
   with extensive testing.
 + A [valid.yml](valid.yml) file containing a list of valid typeids along 
-  with their corresponding decoded UUIDs.
+  with their corresponding decoded UUIDs. For convienience, we also provide
+  a [valid.json](valid.json) file containing the same data in JSON format.
 + An [invalid.yml](invalid.yml) file containing a list of strings that are
-  invalid typeids and should fail to parse/decode.
+  invalid typeids and should fail to parse/decode. For convienience, we also
+  provide a [invalid.json](invalid.json) file containing the same data in
+  JSON format.
