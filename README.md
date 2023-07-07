@@ -48,7 +48,7 @@ Implementations should adhere to the formal [specification](./spec).
 | [C# (.Net)](https://github.com/TenCoKaciStromy/typeid-dotnet) | [@TenCoKaciStromy](https://github.com/TenCoKaciStromy) | Yes, on 2023-06-30 |
 | [C# (.Net Standard 2.1)](https://github.com/cbuctok/typeId) | [@cbuctok](https://github.com/cbuctok) | Yes, on 2023-07-03 |
 | [Elixir](https://github.com/sloanelybutsurely/typeid-elixir) | [@sloanelybutsurely](https://github.com/sloanelybutsurely) | Yes, on 2023-07-02 |
-| [Haskell](https://github.com/MMZK1526/mmzk-typeid) | [@MMZK1526](https://github.com/MMZK1526) | No |
+| [Haskell](https://github.com/MMZK1526/mmzk-typeid) | [@MMZK1526](https://github.com/MMZK1526) | Yes, on 2023-07-07 |
 | [Java](https://github.com/fxlae/typeid-java) | [@fxlae](https://github.com/fxlae) | Yes, on 2023-07-02 |
 | [Java](https://github.com/softprops/typeid-java) | [@softprops](https://github.com/softprops) | Yes, on 2023-07-04 |
 | [PHP](https://github.com/BombenProdukt/typeid) | [@BombenProdukt](https://github.com/BombenProdukt) | Yes, on 2023-07-03 |
