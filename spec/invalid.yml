@@ -85,4 +85,4 @@
 - name: suffix-overflow
   # This is the first suffix that overflows into 129 bits
   typeid: "prefix_8zzzzzzzzzzzzzzzzzzzzzzzzz"
-  description: "The should encode at most 128-bits"
+  description: "The suffix should encode at most 128-bits"
