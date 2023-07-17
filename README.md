@@ -57,6 +57,7 @@ Implementations should adhere to the formal [specification](./spec).
 | [Ruby](https://github.com/broothie/typeid-ruby) | [@broothie](https://github.com/broothie) | Yes, on 2023-06-30 |
 | [Rust](https://github.com/conradludgate/type-safe-id) | [@conradludgate](https://github.com/conradludgate) | Yes, on 2023-07-01 |
 | [Rust](https://github.com/johnnynotsolucky/strong_id) | [@johnnynotsolucky](https://github.com/johnnynotsolucky) | Yes, on 2023-07-13 |
+| [Scala](https://github.com/ant8e/uuid4cats-effect) | [@ant8e](https://github.com/ant8e) | Yes, on 2023-07-14 |
 | [Swift](https://github.com/Frizlab/swift-typeid) | [@Frizlab](https://github.com/Frizlab) | Yes, on 2023-07-07 |
 | [TypeScript](https://github.com/ongteckwu/typeid-ts) | [@ongteckwu](https://github.com/ongteckwu) | Yes, on 2023-06-30 |
 | [Zig](https://github.com/tensorush/zig-typeid) | [@tensorush](https://github.com/tensorush) | Yes, on 2023-07-05 |
