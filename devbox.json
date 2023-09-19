@@ -9,7 +9,7 @@
     ],
     "scripts": {
       "build": "go build -o dist/typeid",
-      "lint": "golangci-lint run",
+      "lint": "golangci-lint run -c ../.golangci.yml",
       "test": "go test -race -cover ./..."
     }
   }
