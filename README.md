@@ -58,6 +58,7 @@ Implementations should adhere to the formal [specification](./spec).
 | [Rust](https://github.com/conradludgate/type-safe-id) | [@conradludgate](https://github.com/conradludgate) | Yes, on 2023-07-01 |
 | [Rust](https://github.com/johnnynotsolucky/strong_id) | [@johnnynotsolucky](https://github.com/johnnynotsolucky) | Yes, on 2023-07-13 |
 | [Scala](https://github.com/ant8e/uuid4cats-effect) | [@ant8e](https://github.com/ant8e) | Yes, on 2023-07-14 |
+| [Scala](https://github.com/guizmaii-opensource/zio-uuid) | [@guizmaii](https://github.com/guizmaii) | Not yet |
 | [Swift](https://github.com/Frizlab/swift-typeid) | [@Frizlab](https://github.com/Frizlab) | Yes, on 2023-07-07 |
 | [T-SQL](https://github.com/uniteeio/typeid_tsql) | [@uniteeio](https://github.com/uniteeio) | Yes, on 2023-08-25 |
 | [TypeScript](https://github.com/ongteckwu/typeid-ts) | [@ongteckwu](https://github.com/ongteckwu) | Yes, on 2023-06-30 |
