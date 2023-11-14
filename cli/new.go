@@ -25,7 +25,7 @@ func newCmd(cmd *cobra.Command, args []string) error {
 	if len(args) > 0 {
 		prefix = strings.ToLower(args[0])
 	}
-	tid, err := typeid.New(prefix)
+	tid, err := typeid.WithPrefix(prefix)
 	if err != nil {
 		return err
 	}
