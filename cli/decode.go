@@ -23,7 +23,7 @@ func decodeCmd(cmd *cobra.Command, args []string) error {
 	if err != nil {
 		return err
 	}
-	cmd.Printf("type: %s\n", tid.Type())
+	cmd.Printf("type: %s\n", tid.Prefix())
 	cmd.Printf("uuid: %s\n", tid.UUID())
 	return nil
 }
