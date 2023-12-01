@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/spf13/cobra v1.8.0
-	go.jetpack.io/typeid v0.1.0
+	go.jetpack.io/typeid v1.0.0
 )
 
 require (
