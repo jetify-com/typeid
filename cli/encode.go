@@ -27,7 +27,7 @@ func encodeCmd(cmd *cobra.Command, args []string) error {
 		prefix = args[0]
 		uuid = args[1]
 	}
-	tid, err := typeid.FromUUID[typeid.AnyID](prefix, uuid)
+	tid, err := typeid.FromUUIDWithPrefix(prefix, uuid)
 	if err != nil {
 		return err
 	}
