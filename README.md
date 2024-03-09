@@ -52,6 +52,7 @@ Implementations should adhere to the formal [specification](./spec).
 | [Haskell](https://github.com/MMZK1526/mmzk-typeid) | [@MMZK1526](https://github.com/MMZK1526) | Yes, on 2023-07-07 |
 | [Java](https://github.com/fxlae/typeid-java) | [@fxlae](https://github.com/fxlae) | Yes, on 2023-07-02 |
 | [Java](https://github.com/softprops/typeid-java) | [@softprops](https://github.com/softprops) | Yes, on 2023-07-04 |
+| [OCaml](https://github.com/titouancreach/typeid-ocaml) | [@titouancreach](https://github.com/titouancreach) | Yes, on 2024-03-07 |
 | [PHP](https://github.com/BombenProdukt/typeid) | [@BombenProdukt](https://github.com/BombenProdukt) | Yes, on 2023-07-03 |
 | [Python](https://github.com/akhundMurad/typeid-python) | [@akhundMurad](https://github.com/akhundMurad) | Yes, on 2023-06-30 |
 | [Ruby](https://github.com/broothie/typeid-ruby) | [@broothie](https://github.com/broothie) | Yes, on 2023-06-30 |
