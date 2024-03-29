@@ -2,22 +2,50 @@
   "lockfile_version": "1",
   "packages": {
     "go@1.20": {
-      "last_modified": "2023-12-13T22:54:10Z",
-      "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#go_1_20",
+      "last_modified": "2024-03-08T13:51:52Z",
+      "resolved": "github:NixOS/nixpkgs/a343533bccc62400e8a9560423486a3b6c11a23b#go_1_20",
       "source": "devbox-search",
-      "version": "1.20.12",
+      "version": "1.20.14",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/vgygiqcs16im3ffw6p0bv9zihixxg0cl-go-1.20.12"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xkwl1ycwwnq6b1ga5lxkqhjxlpd7f2sj-go-1.20.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xkwl1ycwwnq6b1ga5lxkqhjxlpd7f2sj-go-1.20.14"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/rlk4nvwrz6rl7r87sn5g6v2vr2mhq8nv-go-1.20.12"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5i47jls8m0vjf141x3b3pz2i6q1si54w-go-1.20.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5i47jls8m0vjf141x3b3pz2i6q1si54w-go-1.20.14"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/vw51wxs8110al4q12pbg3vpi78w8ijk9-go-1.20.12"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n2lj7bl7sg5viva3vxpkgi3mq8jbiyb5-go-1.20.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n2lj7bl7sg5viva3vxpkgi3mq8jbiyb5-go-1.20.14"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/s05mmkyf6sm6vskb4fwbjq0x93sqalqr-go-1.20.12"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/850gdv8mcrh5bckigj16hzm6kmas5g92-go-1.20.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/850gdv8mcrh5bckigj16hzm6kmas5g92-go-1.20.14"
         }
       }
     },
