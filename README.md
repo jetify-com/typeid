@@ -2,7 +2,7 @@
 
 ### A type-safe, K-sortable, globally unique identifier inspired by Stripe IDs
 
-![License: Apache 2.0](https://img.shields.io/github/license/jetify-com/typeid) [![Join Discord](https://img.shields.io/discord/903306922852245526?color=7389D8&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/agbskCJXk2) [![Built with Devbox](https://www.jetify.com/img/devbox/shield_galaxy.svg)](https://www.jetify.com/devbox/)
+![License: Apache 2.0](https://img.shields.io/github/license/jetify-com/typeid) [![Join Discord](https://img.shields.io/discord/903306922852245526?color=7389D8&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/jetify) [![Built with Devbox](https://www.jetify.com/img/devbox/shield_galaxy.svg)](https://www.jetify.com/devbox/)
 
 ## What is it?
 
@@ -39,7 +39,7 @@ A [formal specification](./spec) defines the encoding in more detail.
 
 Implementations should adhere to the formal [specification](./spec).
 
-### Official Implementations by `jetpack.io`
+### Official Implementations by `jetify`
 
 | Language                                              | Status        |
 | ----------------------------------------------------- | ------------- |
@@ -79,7 +79,7 @@ We are looking for community contributions to implement TypeIDs in other languag
 This repo includes a command-line tool for generating TypeIDs. To install it, run:
 
 ```bash
-curl -fsSL https://get.jetpack.io/typeid | bash
+curl -fsSL https://get.jetify.com/typeid | bash
 ```
 
 To generate a new TypeID, run:
