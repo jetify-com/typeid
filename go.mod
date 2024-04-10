@@ -6,7 +6,7 @@ toolchain go1.22.1
 
 require (
 	github.com/spf13/cobra v1.8.0
-	go.jetpack.io/typeid v1.0.0
+	go.jetpack.io/typeid v1.0.1-0.20240409204517-1cb0aefec14a
 )
 
 require (
