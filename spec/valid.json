@@ -46,5 +46,11 @@
     "typeid": "prefix_01h455vb4pex5vsknk084sn02q",
     "prefix": "prefix",
     "uuid": "01890a5d-ac96-774b-bcce-b302099a8057"
+  },
+  {
+    "name": "prefix-underscore",
+    "typeid": "pre_fix_00000000000000000000000000",
+    "prefix": "pre_fix",
+    "uuid": "00000000-0000-0000-0000-000000000000"
   }
 ]

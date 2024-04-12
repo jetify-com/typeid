@@ -15,11 +15,6 @@
     "description": "The prefix can't have symbols, it needs to be alphabetic"
   },
   {
-    "name": "prefix-underscore",
-    "typeid": "pre_fix_00000000000000000000000000",
-    "description": "The prefix can't have symbols, it needs to be alphabetic"
-  },
-  {
     "name": "prefix-non-ascii",
     "typeid": "préfix_00000000000000000000000000",
     "description": "The prefix can only have ascii letters"
@@ -88,5 +83,15 @@
     "name": "suffix-overflow",
     "typeid": "prefix_8zzzzzzzzzzzzzzzzzzzzzzzzz",
     "description": "The suffix should encode at most 128-bits"
+  },
+  {
+    "name": "prefix-underscore-start",
+    "typeid": "_prefix_00000000000000000000000000",
+    "description": "The prefix can't start with an underscore"
+  },
+  {
+    "name": "prefix-underscore-end",
+    "typeid": "prefix__00000000000000000000000000",
+    "description": "The prefix can't end with an underscore"
   }
 ]

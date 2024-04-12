@@ -4,7 +4,7 @@
 # Each example contains an invalid TypeID string. Implementations are expected
 # to throw an error when attempting to parse/validate these strings.
 #
-# Last updated: 2023-07-05
+# Last updated: 2024-04-10 (for version 0.3.0 of the spec)
 
 - name: prefix-uppercase
   typeid: "PREFIX_00000000000000000000000000"
@@ -18,9 +18,10 @@
   typeid: "pre.fix_00000000000000000000000000"
   description: "The prefix can't have symbols, it needs to be alphabetic"
 
-- name: prefix-underscore
-  typeid: "pre_fix_00000000000000000000000000"
-  description: "The prefix can't have symbols, it needs to be alphabetic"
+# Test removed in v0.3.0 – we now allow underscores in the prefix
+# - name: prefix-underscore
+#   typeid: "pre_fix_00000000000000000000000000"
+#   description: "The prefix can't have symbols, it needs to be alphabetic"
 
 - name: prefix-non-ascii
   typeid: "préfix_00000000000000000000000000"
@@ -86,3 +87,13 @@
   # This is the first suffix that overflows into 129 bits
   typeid: "prefix_8zzzzzzzzzzzzzzzzzzzzzzzzz"
   description: "The suffix should encode at most 128-bits"
+
+# Tests below were added in v0.3.0 when we started allowing '_' within the
+# type prefix.
+- name: prefix-underscore-start
+  typeid: "_prefix_00000000000000000000000000"
+  description: "The prefix can't start with an underscore"
+
+- name: prefix-underscore-end
+  typeid: "prefix__00000000000000000000000000"
+  description: "The prefix can't end with an underscore"

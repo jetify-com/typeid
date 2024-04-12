@@ -23,7 +23,7 @@
 # note that not all of them are UUIDv7s. When *generating* new random typeids,
 # implementations should always use UUIDv7s.
 #
-# Last updated: 2023-07-05
+# Last updated: 2024-04-10 (for version 0.3.0 of the spec)
 
 - name: nil
   typeid: "00000000000000000000000000"
@@ -64,3 +64,10 @@
   typeid: "prefix_01h455vb4pex5vsknk084sn02q"
   prefix: "prefix"
   uuid: "01890a5d-ac96-774b-bcce-b302099a8057"
+
+# Tests below were added in v0.3.0 when we started allowing '_' within the
+# type prefix.
+- name: prefix-underscore
+  typeid: "pre_fix_00000000000000000000000000"
+  prefix: "pre_fix"
+  uuid: "00000000-0000-0000-0000-000000000000"
