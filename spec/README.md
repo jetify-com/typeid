@@ -31,11 +31,11 @@ The prefix must:
 - Contain at most 63 characters.
 - May be empty.
 - If not empty:
-  * Must contain only lowercase alphabetic ASCII characters `[a-z]`, or an underscore `_`.
-  * Must start and end with an alphabetic character `[a-z]`. Underscores are not allowed at the beginning or end of the string.
+  - Must contain only lowercase alphabetic ASCII characters `[a-z]`, or an underscore `_`.
+  - Must start and end with an alphabetic character `[a-z]`. Underscores are not allowed at the beginning or end of the string.
 
 Valid prefixes match the following
-regex: `^([a-z]([a-z_]*[a-z])?)?$`.
+regex: `^([a-z]([a-z_]{0,61}[a-z])?)?$`.
 
 The empty string is a valid prefix, it's there for use cases in which
 applications need to encode a typeid but elide the type information. In general though,

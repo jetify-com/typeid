@@ -45,7 +45,7 @@ Latest spec version: v0.3.0
 
 | Language                                              | Status        | Spec Version |
 | ----------------------------------------------------- | ------------- | ------------ |
-| [Go](https://github.com/jetify-com/typeid-go)         | ✓ Implemented | v0.2         |
+| [Go](https://github.com/jetify-com/typeid-go)         | ✓ Implemented | v0.3         |
 | [SQL](https://github.com/jetify-com/typeid-sql)       | ✓ Implemented | v0.2         |
 | [TypeScript](https://github.com/jetify-com/typeid-js) | ✓ Implemented | v0.2         |
 
