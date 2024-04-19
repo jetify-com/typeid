@@ -64,7 +64,7 @@ Latest spec version: v0.3.0
 | [OCaml](https://github.com/titouancreach/typeid-ocaml)        | [@titouancreach](https://github.com/titouancreach)                                        | v0.2 on 2024-03-07 |
 | [PHP](https://github.com/BombenProdukt/typeid)                | [@BombenProdukt](https://github.com/BombenProdukt)                                        | v0.2 on 2023-07-03 |
 | [Python](https://github.com/akhundMurad/typeid-python)        | [@akhundMurad](https://github.com/akhundMurad)                                            | v0.2 on 2023-06-30 |
-| [Ruby](https://github.com/broothie/typeid-ruby)               | [@broothie](https://github.com/broothie)                                                  | v0.2 on 2023-06-30 |
+| [Ruby](https://github.com/broothie/typeid-ruby)               | [@broothie](https://github.com/broothie)                                                  | [v0.3 on 2024-04-13](https://github.com/broothie/typeid-ruby/pull/17) |
 | [Rust](https://github.com/conradludgate/type-safe-id)         | [@conradludgate](https://github.com/conradludgate)                                        | v0.2 on 2023-07-01 |
 | [Rust](https://github.com/johnnynotsolucky/strong_id)         | [@johnnynotsolucky](https://github.com/johnnynotsolucky)                                  | v0.2 on 2023-07-13 |
 | [Scala](https://github.com/ant8e/uuid4cats-effect)            | [@ant8e](https://github.com/ant8e)                                                        | v0.2 on 2023-07-14 |
