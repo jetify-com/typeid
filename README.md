@@ -69,7 +69,7 @@ Latest spec version: v0.3.0
 | [Rust](https://github.com/johnnynotsolucky/strong_id)         | [@johnnynotsolucky](https://github.com/johnnynotsolucky)                                  | v0.2 on 2023-07-13 |
 | [Scala](https://github.com/ant8e/uuid4cats-effect)            | [@ant8e](https://github.com/ant8e)                                                        | v0.2 on 2023-07-14 |
 | [Scala](https://github.com/guizmaii-opensource/zio-uuid)      | [@guizmaii](https://github.com/guizmaii)                                                  | Not validated yet  |
-| [Swift](https://github.com/Frizlab/swift-typeid)              | [@Frizlab](https://github.com/Frizlab)                                                    | v0.2 on 2023-07-07 |
+| [Swift](https://github.com/Frizlab/swift-typeid)              | [@Frizlab](https://github.com/Frizlab)                                                    | v0.3 on 2024-04-19 |
 | [T-SQL](https://github.com/uniteeio/typeid_tsql)              | [@uniteeio](https://github.com/uniteeio)                                                  | v0.2 on 2023-08-25 |
 | [TypeScript](https://github.com/ongteckwu/typeid-ts)          | [@ongteckwu](https://github.com/ongteckwu)                                                | v0.2 on 2023-06-30 |
 | [Zig](https://github.com/tensorush/zig-typeid)                | [@tensorush](https://github.com/tensorush)                                                | v0.2 on 2023-07-05 |
