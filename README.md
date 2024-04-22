@@ -61,7 +61,7 @@ Latest spec version: v0.3.0
 | [Haskell](https://github.com/MMZK1526/mmzk-typeid)            | [@MMZK1526](https://github.com/MMZK1526)                                                  | v0.3 on 2024-04-19 |
 | [Java](https://github.com/fxlae/typeid-java)                  | [@fxlae](https://github.com/fxlae)                                                        | v0.3 on 2024-04-14 |
 | [Java](https://github.com/softprops/typeid-java)              | [@softprops](https://github.com/softprops)                                                | v0.2 on 2023-07-04 |
-| [OCaml](https://github.com/titouancreach/typeid-ocaml)        | [@titouancreach](https://github.com/titouancreach)                                        | v0.2 on 2024-03-07 |
+| [OCaml](https://github.com/titouancreach/typeid-ocaml)        | [@titouancreach](https://github.com/titouancreach)                                        | v0.3 on 2024-04-22 |
 | [PHP](https://github.com/BombenProdukt/typeid)                | [@BombenProdukt](https://github.com/BombenProdukt)                                        | v0.2 on 2023-07-03 |
 | [Python](https://github.com/akhundMurad/typeid-python)        | [@akhundMurad](https://github.com/akhundMurad)                                            | v0.2 on 2023-06-30 |
 | [Ruby](https://github.com/broothie/typeid-ruby)               | [@broothie](https://github.com/broothie)                                                  | [v0.3 on 2024-04-13](https://github.com/broothie/typeid-ruby/pull/17) |
