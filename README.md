@@ -58,7 +58,7 @@ Latest spec version: v0.3.0
 | [C# (.NET)](https://github.com/firenero/TypeId)               | [@firenero](https://github.com/firenero)                                                  | v0.3 on 2024-04-15 |
 | [Dart](https://github.com/TBD54566975/typeid-dart)            | [@mistermoe](https://github.com/mistermoe) [@tbd54566975](https://github.com/tbd54566975) | v0.2 on 2024-03-25 |
 | [Elixir](https://github.com/sloanelybutsurely/typeid-elixir)  | [@sloanelybutsurely](https://github.com/sloanelybutsurely)                                | v0.2 on 2023-07-02 |
-| [Haskell](https://github.com/MMZK1526/mmzk-typeid)            | [@MMZK1526](https://github.com/MMZK1526)                                                  | v0.2 on 2023-07-07 |
+| [Haskell](https://github.com/MMZK1526/mmzk-typeid)            | [@MMZK1526](https://github.com/MMZK1526)                                                  | v0.3 on 2024-04-19 |
 | [Java](https://github.com/fxlae/typeid-java)                  | [@fxlae](https://github.com/fxlae)                                                        | v0.3 on 2024-04-14 |
 | [Java](https://github.com/softprops/typeid-java)              | [@softprops](https://github.com/softprops)                                                | v0.2 on 2023-07-04 |
 | [OCaml](https://github.com/titouancreach/typeid-ocaml)        | [@titouancreach](https://github.com/titouancreach)                                        | v0.2 on 2024-03-07 |
