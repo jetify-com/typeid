@@ -4,7 +4,7 @@
 # Each example contains an invalid TypeID string. Implementations are expected
 # to throw an error when attempting to parse/validate these strings.
 #
-# Last updated: 2024-04-10 (for version 0.3.0 of the spec)
+# Last updated: 2024-05-18 (for version 0.3.0 of the spec)
 
 - name: prefix-uppercase
   typeid: "PREFIX_00000000000000000000000000"
@@ -67,7 +67,7 @@
   # This example has the right length, so that the failure is caused by the hyphens
   # and not the suffix length
   typeid: "prefix_123456789-123456789-123456"
-  description: "The suffix should be lowercase with no uppercase letters"
+  description: "The suffix can't have any hyphens"
 
 - name: suffix-wrong-alphabet
   typeid: "prefix_ooooooiiiiiiuuuuuuulllllll"
