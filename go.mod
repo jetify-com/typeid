@@ -6,11 +6,11 @@ toolchain go1.22.1
 
 require (
 	github.com/spf13/cobra v1.8.0
-	go.jetify.com/typeid v1.1.0
+	go.jetify.com/typeid v1.1.1-0.20240520210211-61dfb24ffdcd
 )
 
 require (
-	github.com/gofrs/uuid/v5 v5.1.0 // indirect
+	github.com/gofrs/uuid/v5 v5.2.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 )
