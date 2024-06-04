@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"go.jetpack.io/typeid"
+	"go.jetify.com/typeid"
 )
 
 func NewCmd() *cobra.Command {

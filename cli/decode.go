@@ -2,7 +2,7 @@ package cli
 
 import (
 	"github.com/spf13/cobra"
-	"go.jetpack.io/typeid"
+	"go.jetify.com/typeid"
 )
 
 func DecodeCmd() *cobra.Command {
