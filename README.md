@@ -25,6 +25,11 @@ Here's an example of a TypeID of type `user`:
 
 A [formal specification](./spec) defines the encoding in more detail.
 
+## Online Converter
+You can try converting UUID to TypeID and back using Jetify's TypeID Converter. Paste your TypeID string to convert to UUID or put your prefix and UUID in this format: `prefix:UUID` to convert to TypeID.
+
+### [jetify.com/typeid](https://www.jetify.com/typeid)
+
 ## Benefits
 
 - **Type-safe:** you can't accidentally use a `user` ID where a `post` ID is expected. When debugging, you can
