@@ -1,12 +1,7 @@
 {
-  "packages": [
-    "go@1.20",
-    "golangci-lint@latest"
-  ],
+  "packages": ["go@latest", "golangci-lint@latest"],
   "shell": {
-    "init_hook": [
-      "export \"GOROOT=$(go env GOROOT)\""
-    ],
+    "init_hook": ["export \"GOROOT=$(go env GOROOT)\""],
     "scripts": {
       "build": "go build -o dist/typeid",
       "lint": "golangci-lint run -c ../.golangci.yml",
