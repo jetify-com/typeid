@@ -1,4 +1,4 @@
-module go.jetpack.io/typeid-cli
+module go.jetify.com/typeid-cli
 
 go 1.23
 
