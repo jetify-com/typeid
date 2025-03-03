@@ -93,5 +93,15 @@
     "name": "prefix-underscore-end",
     "typeid": "prefix__00000000000000000000000000",
     "description": "The prefix can't end with an underscore"
+  },
+  {
+    "name": "empty",
+    "typeid": "",
+    "description": "The empty string is not a valid typeid"
+  },
+  {
+    "name": "prefix-empty",
+    "typeid": "prefix_",
+    "description": "The suffix can't be the empty string"
   }
 ]
