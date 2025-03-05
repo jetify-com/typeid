@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/spf13/cobra v1.9.1
-	go.jetify.com/typeid v1.3.1-0.20250304194041-24c885156bdd
+	go.jetify.com/typeid v1.3.1-0.20250305231704-b8c05c2056f3
 )
 
 require (
