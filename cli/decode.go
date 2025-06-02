@@ -19,7 +19,7 @@ func DecodeCmd() *cobra.Command {
 }
 
 func decodeCmd(cmd *cobra.Command, args []string) error {
-	tid, err := typeid.FromString(args[0])
+	tid, err := typeid.Parse(args[0])
 	if err != nil {
 		return err
 	}
