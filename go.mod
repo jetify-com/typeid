@@ -4,11 +4,12 @@ go 1.24.0
 
 require (
 	github.com/spf13/cobra v1.9.1
-	go.jetify.com/typeid v1.3.1-0.20250708200829-05dce5112f3d
+	go.jetify.com/typeid/v2 v2.0.0-alpha.2
 )
 
 require (
 	github.com/gofrs/uuid/v5 v5.3.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.6 // indirect
+	go.jetify.com/typeid v1.3.1-0.20250708200829-05dce5112f3d // indirect
 )

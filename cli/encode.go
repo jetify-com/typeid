@@ -2,7 +2,7 @@ package cli
 
 import (
 	"github.com/spf13/cobra"
-	"go.jetify.com/typeid"
+	"go.jetify.com/typeid/v2"
 )
 
 func EncodeCmd() *cobra.Command {
